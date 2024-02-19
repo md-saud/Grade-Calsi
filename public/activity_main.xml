@@ -1,0 +1,34 @@
+<!-- Use Material Design components for a trendy look -->
+<!-- Add TextInputLayout for better input validation and hint animation -->
+
+<!-- Add TextInputLayouts for subject names -->
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/subject1TextInputLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Subject 1">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextSubject1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+<!-- Add TextInputLayouts for marks -->
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/marks1TextInputLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Marks for Subject 1">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextMarks1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+<!-- Add more TextInputLayouts as needed -->
