@@ -1,7 +1,7 @@
-<!-- Use Material Design components for a trendy look -->
-<!-- Add TextInputLayout for better input validation and hint animation -->
+<!-- Material Design components for a trendy look -->
+<!-- TextInputLayout for better input validation and hint animation -->
 
-<!-- Add TextInputLayouts for subject names -->
+<!-- TextInputLayouts for subject names -->
 <com.google.android.material.textfield.TextInputLayout
     android:id="@+id/subject1TextInputLayout"
     android:layout_width="match_parent"
@@ -16,7 +16,7 @@
 
 </com.google.android.material.textfield.TextInputLayout>
 
-<!-- Add TextInputLayouts for marks -->
+<!--TextInputLayouts for marks -->
 <com.google.android.material.textfield.TextInputLayout
     android:id="@+id/marks1TextInputLayout"
     android:layout_width="match_parent"
@@ -31,4 +31,4 @@
 
 </com.google.android.material.textfield.TextInputLayout>
 
-<!-- Add more TextInputLayouts as needed -->
+<!--more TextInputLayouts as needed -->
